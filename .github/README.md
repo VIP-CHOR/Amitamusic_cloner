@@ -3,11 +3,11 @@
 </h2>
 
 <p align="center">
-  <img src="https://files.catbox.moe/v5yg3x.jpg">
+  <img src="https://files.catbox.moe/2yibmr.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/TeamProBots/Clonify"><img src="https://img.shields.io/github/stars/TeamProBots/Clonify?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/TeamProBots/Clonify"><img src="https://img.shields.io/github/stars/TeamProBots/Clonify?color=black&logo=github&logoColor=black&style=for-thefor-the-badgers" /></a>
 <a href="https://github.com/TeamProBots/Clonify/network/members"> <img src="https://img.shields.io/github/forks/TeamProBots/Clonify?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/TeamProBots/Clonify/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
