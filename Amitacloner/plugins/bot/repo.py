@@ -10,9 +10,9 @@ start_txt = """
 **DRXCLONE** - Tʜᴇ Uʟᴛɪᴍᴀᴛᴇ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Sᴏʟᴜᴛɪᴏɴ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇs.
 
 ┏━━━━━━━━━━━━━━━━━⧫
-┠ ◆ **sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ:** [Click Here](https://github.com/DRxBots/CAPTAINAMERICA)  
-┠ ◆ **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [𝐃ʀꭙ 𝐍ᴇᴛᴡᴏʀᴋ](https://t.me/lll_DRX_NETWORK_lll)
-┠ ◆ **ʀᴇʟᴇᴀsᴇᴅ ʙʏ:** [𝙎𝙏𝚲𝙇𝙆𝙀𝙍 ×͜×](https://t.me/hehe_stalker)
+┠ ◆ **sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ:** [Click Here](https://t.me/source_code123)  
+┠ ◆ **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [ᴅɪʟᴄʜᴏʀ_ɴᴇᴛᴡᴏʀᴋ](https://t.me/TEAM_CHOR)
+┠ ◆ **ʀᴇʟᴇᴀsᴇᴅ ʙʏ:** [Sᴛᴀʀ Bᴏᴛs](https://t.me/ll_star_bots_ll)
 ┗━━━━━━━━━━━━━━━━━⧫
 
 __Fᴏʀᴋ ɪᴛ, ᴄᴜsᴛᴏᴍɪᴢᴇ ɪᴛ, ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ʏᴏᴜʀ ᴏᴡɴ!__
