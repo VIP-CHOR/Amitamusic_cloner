@@ -9,17 +9,17 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from Clonify import app
-from Clonify.core.userbot import assistants
-from Clonify.misc import SUDOERS, mongodb
-from Clonify.plugins import ALL_MODULES
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.core.userbot import assistants
+from Amitacloner.misc import SUDOERS, mongodb
+from Amitacloner.plugins import ALL_MODULES
+from Amitacloner.utils.database import (
     get_served_chats_clone,
     get_served_users_clone,
     get_sudoers,
 )
-from Clonify.utils.decorators.language import language, languageCB
-from Clonify.utils.inline.stats import back_stats_buttons, stats_buttons
+from Amitacloner.utils.decorators.language import language, languageCB
+from Amitacloner.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
