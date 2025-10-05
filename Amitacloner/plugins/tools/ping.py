@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 from config import *
-from Clonify import app
-from Clonify.core.call import PRO
-from Clonify.utils import bot_sys_stats
-from Clonify.utils.decorators.language import language
-from Clonify.utils.inline import supp_markup
+from Amitacloner import app
+from Amitacloner.core.call import PRO
+from Amitacloner.utils import bot_sys_stats
+from Amitacloner.utils.decorators.language import language
+from Amitacloner.utils.inline import supp_markup
 from config import BANNED_USERS
 from config import PING_IMG_URL
 
