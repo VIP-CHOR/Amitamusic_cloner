@@ -3,18 +3,18 @@ from typing import Union
 from pyrogram import filters, types, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Clonify import app
-from Clonify.utils import first_page, second_page
-from Clonify.utils.database import get_lang
-from Clonify.utils.decorators.language import LanguageStart, languageCB
-from Clonify.utils.inline.help import help_back_markup, private_help_panel
+from Amitacloner import app
+from Amitacloner.utils import first_page, second_page
+from Amitacloner.utils.database import get_lang
+from Amitacloner.utils.decorators.language import LanguageStart, languageCB
+from Amitacloner.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, HELP_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from Clonify.misc import SUDOERS
+from Amitacloner.misc import SUDOERS
 from time import time
 import asyncio
-from Clonify.utils.extraction import extract_user
-from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Amitacloner.utils.extraction import extract_user
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
