@@ -1,8 +1,8 @@
-from Clonify.core.bot import PRO
-from Clonify.core.dir import dirr
-from Clonify.core.git import git
-from Clonify.core.userbot import Userbot
-from Clonify.misc import dbb, heroku
+from Amitacloner.core.bot import PRO
+from Amitacloner.core.dir import dirr
+from Amitacloner.core.git import git
+from Amitacloner.core.userbot import Userbot
+from Amitacloner.misc import dbb, heroku
 from pyrogram import Client
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
