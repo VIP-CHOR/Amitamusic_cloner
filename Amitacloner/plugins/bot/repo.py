@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Clonify import app
+from Amitacloner import app
 from config import BOT_USERNAME
-from Clonify.utils.errors import capture_err
+from Amitacloner.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
