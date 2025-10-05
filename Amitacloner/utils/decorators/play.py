@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Clonify import YouTube, app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import (
+from Amitacloner import YouTube, app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from Clonify.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from Clonify.utils.inline import botplaylist_markup
+from Amitacloner.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
