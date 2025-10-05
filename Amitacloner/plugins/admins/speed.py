@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.core.call import PRO
-from Clonify.misc import SUDOERS, db
-from Clonify.utils import AdminRightsCheck
-from Clonify.utils.database import is_active_chat, is_nonadmin_chat
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.inline import close_markup, speed_markup
+from Amitacloner import app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import SUDOERS, db
+from Amitacloner.utils import AdminRightsCheck
+from Amitacloner.utils.database import is_active_chat, is_nonadmin_chat
+from Amitacloner.utils.decorators.language import languageCB
+from Amitacloner.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
