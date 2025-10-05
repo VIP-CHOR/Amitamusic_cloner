@@ -5,16 +5,16 @@ from pyrogram import filters, Client
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
-from Clonify import app
+from Amitacloner import app
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
 # from Clonify import app
-from Clonify.misc import _boot_
-from Clonify.plugins.sudo.sudoers import sudoers_list
-from Clonify.utils.database import get_served_chats, get_served_users, get_sudoers
-from Clonify.utils import bot_sys_stats
-from Clonify.utils.database import (
+from Amitacloner.misc import _boot_
+from Amitacloner.plugins.sudo.sudoers import sudoers_list
+from Amitacloner.utils.database import get_served_chats, get_served_users, get_sudoers
+from Amitacloner.utils import bot_sys_stats
+from Amitacloner.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
@@ -22,15 +22,15 @@ from Clonify.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Clonify.utils.decorators.language import LanguageStart
-from Clonify.utils.formatters import get_readable_time
-from Clonify.utils.inline import help_pannel, private_panel, start_panel
+from Amitacloner.utils.decorators.language import LanguageStart
+from Amitacloner.utils.formatters import get_readable_time
+from Amitacloner.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS, OWNER_ID, STREAMI_PICS
 from strings import get_string
 
-from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
-from Clonify.cplugin.setinfo import get_logging_status, get_log_channel
+from Amitacloner.cplugin.setinfo import get_logging_status, get_log_channel
 
 #--------------------------
 
