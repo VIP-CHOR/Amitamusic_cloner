@@ -1,6 +1,6 @@
 from typing import Union
-from Clonify import app
-from Clonify.utils.formatters import time_to_seconds
+from Amitacloner import app
+from Amitacloner.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
