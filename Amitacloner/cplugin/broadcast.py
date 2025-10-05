@@ -4,22 +4,22 @@ from pyrogram import filters, Client
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import (
     get_client,
     get_served_chats_clone,
     get_served_users_clone,
 )
-from Clonify.utils.decorators.language import language
-from Clonify.utils.formatters import alpha_to_int
+from Amitacloner.utils.decorators.language import language
+from Amitacloner.utils.formatters import alpha_to_int
 from config import adminlist
 import random
 from typing import Dict, List, Union
 
-from Clonify import userbot
-from Clonify.core.mongo import mongodb, pymongodb
-from Clonify.utils.database.clonedb import get_owner_id_from_db, check_bot_premium
+from Amitacloner import userbot
+from Amitacloner.core.mongo import mongodb, pymongodb
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db, check_bot_premium
 from config import SUPPORT_CHAT, OWNER_ID
 
 authdb = mongodb.adminauth
