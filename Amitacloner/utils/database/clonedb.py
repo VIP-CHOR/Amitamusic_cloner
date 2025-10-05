@@ -1,4 +1,4 @@
-from Clonify.core.mongo import mongodb, pymongodb
+from Amitacloner.core.mongo import mongodb, pymongodb
 from typing import Dict, List, Union
 
 cloneownerdb = mongodb.cloneownerdb
