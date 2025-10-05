@@ -106,11 +106,11 @@ For a full list of commands, use `/help` in [telegram](https://t.me/tidalxmusicb
 </h3>
 
 <p align="center">
-<a href="https://t.me/DRX_SUPPORTCHAT"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ll_star_bots_support_ll"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://t.me/drxgiveway"><img src="https://img.shields.io/badge/-Update%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ll_star_bots_ll"><img src="https://img.shields.io/badge/-Update%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <br />
