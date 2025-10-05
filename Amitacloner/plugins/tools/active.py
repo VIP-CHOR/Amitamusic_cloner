@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
