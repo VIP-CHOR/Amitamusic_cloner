@@ -10,19 +10,19 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     AccessTokenExpired,
     AccessTokenInvalid,
 )
-from Clonify.utils.database import get_assistant
+from Amitacloner.utils.database import get_assistant
 from config import API_ID, API_HASH
-from Clonify import app
+from Amitacloner import app
 from config import OWNER_ID
-from Clonify.misc import SUDOERS
+from Amitacloner.misc import SUDOERS
 from Clonify.utils.database import get_assistant, clonebotdb
-from Clonify.utils.database.clonedb import has_user_cloned_any_bot
+from Amitacloner.utils.database.clonedb import has_user_cloned_any_bot
 from config import LOGGER_ID, CLONE_LOGGER
 import requests
-from Clonify.utils.decorators.language import language
+from Amitacloner.utils.decorators.language import language
 import pyrogram.errors
 
-from Clonify.utils.database.clonedb import get_owner_id_from_db
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db
 from config import SUPPORT_CHAT, OWNER_ID
 
 from datetime import datetime
