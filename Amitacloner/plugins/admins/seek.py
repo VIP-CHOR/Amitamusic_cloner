@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Clonify import YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import db
-from Clonify.utils import AdminRightsCheck, seconds_to_min
-from Clonify.utils.inline import close_markup
+from Amitacloner import YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import db
+from Amitacloner.utils import AdminRightsCheck, seconds_to_min
+from Amitacloner.utils.inline import close_markup
 from config import BANNED_USERS
 
 
