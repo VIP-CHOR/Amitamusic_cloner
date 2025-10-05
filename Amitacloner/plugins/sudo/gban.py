@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils import get_readable_time
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils import get_readable_time
+from Amitacloner.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from Clonify.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from Clonify.utils.decorators.language import language
-from Clonify.utils.extraction import extract_user
+from Amitacloner.utils.decorators.language import language
+from Amitacloner.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
