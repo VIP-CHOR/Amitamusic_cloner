@@ -7,12 +7,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from Clonify import app
-from Clonify.misc import _boot_
+from Amitacloner import app
+from Amitacloner.misc import _boot_
 from Clonify.plugins.sudo.sudoers import sudoers_list
-from Clonify.utils.database import get_served_chats, get_served_users, get_sudoers
-from Clonify.utils import bot_sys_stats
-from Clonify.utils.database import (
+from Amitacloner.utils.database import get_served_chats, get_served_users, get_sudoers
+from Amitacloner.utils import bot_sys_stats
+from Amitacloner.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -20,9 +20,9 @@ from Clonify.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Clonify.utils.decorators.language import LanguageStart
-from Clonify.utils.formatters import get_readable_time
-from Clonify.utils.inline import help_pannel, private_panel, start_panel
+from Amitacloner.utils.decorators.language import LanguageStart
+from Amitacloner.utils.formatters import get_readable_time
+from Amitacloner.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS, STREAMI_PICS, GREET
 from strings import get_string
 
