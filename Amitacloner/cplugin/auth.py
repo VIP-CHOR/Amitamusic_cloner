@@ -1,17 +1,17 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.utils import extract_user, int_to_alpha
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.utils import extract_user, int_to_alpha
+from Amitacloner.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from Clonify.utils.decorators import AdminActual, language
-from Clonify.utils.inline import close_markup
-from config import BANNED_USERS, adminlist
+from Amitacloner.utils.decorators import AdminActual, language
+from Amitacloner.utils.inline import close_markup
+from Amitacloner import BANNED_USERS, adminlist
 
 
 @Client.on_message(filters.command("auth") & filters.group & ~BANNED_USERS)
