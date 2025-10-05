@@ -9,7 +9,7 @@ from youtubesearchpython.__future__ import VideosSearch
 import config
 from Amitacloner import app
 from Amitacloner.misc import _boot_
-from Clonify.plugins.sudo.sudoers import sudoers_list
+from Amitacloner.plugins.sudo.sudoers import sudoers_list
 from Amitacloner.utils.database import get_served_chats, get_served_users, get_sudoers
 from Amitacloner.utils import bot_sys_stats
 from Amitacloner.utils.database import (
