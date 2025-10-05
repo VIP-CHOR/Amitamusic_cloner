@@ -170,10 +170,10 @@ CLONE_HELP = """
 CLONE_HELP_2 = """
 <b><u>ᴄᴏᴍᴍᴀɴᴅs :</b></u>
 
-/clone – Cʟᴏɴᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ @CaptainAmericaXVBot.
+/clone – Cʟᴏɴᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ @Amita_music_cloner_bot.
 
 <b><u>Aʟʟ Usᴇʀs :</b></u>
-/mybot – Cʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛs ʏᴏᴜ’ᴠᴇ ᴄʟᴏɴᴇᴅ. [<a href="https://t.me/CaptainAmericaXVBot">𝐂ᴀᴘᴛᴀɪɴ 𝐀ᴍᴇʀɪᴄᴀ</a>]
+/mybot – Cʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛs ʏᴏᴜ’ᴠᴇ ᴄʟᴏɴᴇᴅ. [<a href="https://t.me/Amita_music_cloner_bot">˹ Aᴍɪᴛᴀ Mᴜsɪᴄ 𝟸.𝟶 ˼</a>]
 /botinfo – Oɴʟʏ ғᴏʀ ʙᴏᴛ ᴏᴡɴᴇʀs ᴛᴏ ᴠɪᴇᴡ ʙᴏᴛ ɪɴғᴏ.
 
 <b><u>Pʀᴇᴍɪᴜᴍ Usᴇʀs :</b></u>
