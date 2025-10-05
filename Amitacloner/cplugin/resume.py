@@ -1,14 +1,14 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Clonify import app
-from Clonify.core.call import PRO
+from Amitacloner import app
+from Amitacloner.core.call import PRO
 
-from Clonify.utils.decorators import AdminRightsCheck
-from Clonify.utils.inline import close_markup
+from Amitacloner.utils.decorators import AdminRightsCheck
+from Amitacloner.utils.inline import close_markup
 from config import BANNED_USERS
-from Clonify import userbot
-from Clonify.core.mongo import mongodb, pymongodb
+from Amitacloner import userbot
+from Amitacloner.core.mongo import mongodb, pymongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
