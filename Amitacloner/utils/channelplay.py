@@ -1,5 +1,5 @@
-from Clonify import app
-from Clonify.utils.database import get_cmode
+from Amitacloner import app
+from Amitacloner.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
