@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.utils.database import set_cmode
-from Clonify.utils.decorators.admins import AdminActual
+from Amitacloner import app
+from Amitacloner.utils.database import set_cmode
+from Amitacloner.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 from time import time
 import asyncio
