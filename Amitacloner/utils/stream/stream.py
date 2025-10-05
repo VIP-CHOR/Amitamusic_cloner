@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from Clonify import Carbon, YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import db
-from Clonify.utils.database import add_active_video_chat, is_active_chat
-from Clonify.utils.exceptions import AssistantErr
-from Clonify.utils.inline import aq_markup, close_markup, stream_markup
-from Clonify.utils.stream.queue import put_queue, put_queue_index
-from Clonify.utils.pastebin import PROBin
-from Clonify.utils.thumbnails import get_thumb
+from Amitacloner import Carbon, YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import db
+from Amitacloner.utils.database import add_active_video_chat, is_active_chat
+from Amitacloner.utils.exceptions import AssistantErr
+from Amitacloner.utils.inline import aq_markup, close_markup, stream_markup
+from Amitacloner.utils.stream.queue import put_queue, put_queue_index
+from Amitacloner.utils.pastebin import PROBin
+from Amitacloner.utils.thumbnails import get_thumb
 
 
 async def stream(
