@@ -7,7 +7,7 @@ from youtubesearchpython.__future__ import VideosSearch
 from pyrogram import filters, Client
 from Amitacloner import app
 from Amitacloner.utils.inlinequery import answer
-from Amitacloner import BANNED_USERS
+from config import BANNED_USERS
 
 
 @Client.on_inline_query(~BANNED_USERS)
