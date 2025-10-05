@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
