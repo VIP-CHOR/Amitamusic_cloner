@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from Clonify import app
-from Clonify.utils.database import is_on_off
+from Amitacloner import app
+from Amitacloner.utils.database import is_on_off
 from config import LOGGER_ID
 
 
