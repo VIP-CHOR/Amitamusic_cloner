@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from Clonify import app
-from Clonify.utils.database import get_lang, set_lang
-from Clonify.utils.decorators import ActualAdminCB, language, languageCB
+from Amitacloner import app
+from Amitacloner.utils.database import get_lang, set_lang
+from Amitacloner.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
