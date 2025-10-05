@@ -12,12 +12,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from Clonify import app
-from Clonify.core.call import PRO
-from Clonify.misc import db
-from Clonify.utils.database import get_assistant, get_authuser_names, get_cmode
-from Clonify.utils.decorators import ActualAdminCB, AdminActual, language
-from Clonify.utils.formatters import alpha_to_int, get_readable_time
+from Amitacloner import app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import db
+from Amitacloner.utils.database import get_assistant, get_authuser_names, get_cmode
+from Amitacloner.utils.decorators import ActualAdminCB, AdminActual, language
+from Amitacloner.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
