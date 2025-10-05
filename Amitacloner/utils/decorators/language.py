@@ -1,8 +1,8 @@
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import get_lang, is_maintenance
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import get_lang, is_maintenance
 from strings import get_string
 from config import SUPPORT_CHAT
-from Clonify import app
+from Amitacloner import app
 
 
 def language(mystic):
