@@ -8,13 +8,13 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 import config
-from Clonify.utils.database import get_assistant
+from Amitacloner.utils.database import get_assistant
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from Clonify import YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import SUDOERS, db
-from Clonify.utils.database import (
+from Amitacloner import YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import SUDOERS, db
+from Amitacloner.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -28,9 +28,9 @@ from Clonify.utils.database import (
     is_muted,
     set_loop,
 )
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.formatters import seconds_to_min
-from Clonify.utils.inline import (
+from Amitacloner.utils.decorators.language import languageCB
+from Amitacloner.utils.formatters import seconds_to_min
+from Amitacloner.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup_timer,
@@ -52,9 +52,9 @@ from Clonify.utils.inline import (
     queue_markup,
     panel_markup_1,
 )
-from Clonify.utils.stream.autoclear import auto_clean
-from Clonify.utils.thumbnails import get_thumb
-from config import (
+from Amitacloner.utils.stream.autoclear import auto_clean
+from Amitacloner.utils.thumbnails import get_thumb
+from Amitacloner import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
     STREAM_IMG_URL,
@@ -66,7 +66,7 @@ from config import (
 )
 from strings import get_string
 from config import lyrical
-from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 wrong = {}
 
