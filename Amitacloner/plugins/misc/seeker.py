@@ -1,7 +1,7 @@
 import asyncio
 
-from Clonify.misc import db
-from Clonify.utils.database import get_active_chats, is_music_playing
+from Amitacloner.misc import db
+from Amitacloner.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
