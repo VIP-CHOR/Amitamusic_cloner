@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from Clonify.misc import db
-from Clonify.utils.formatters import check_duration, seconds_to_min
+from Amitacloner.misc import db
+from Amitacloner.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
