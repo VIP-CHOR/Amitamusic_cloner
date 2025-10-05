@@ -227,10 +227,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/GOJO_SUPPORT_GROUP_II"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ll_star_bots_ll"
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ", url=f"https://t.me/GOJO_NOBITA_II"
+                text="ᴄʜᴀᴛ", url=f"https://t.me/TEAM_CHOR"
             ),
         ],
 
