@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import add_off, add_on
-from Clonify.utils.decorators.language import language
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import add_off, add_on
+from Amitacloner.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
