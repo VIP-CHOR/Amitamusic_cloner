@@ -5,18 +5,18 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
-from Clonify.utils.database import get_assistant
+from Amitacloner.utils.database import get_assistant
 import config
-from Clonify import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import SUDOERS
-from Clonify.utils.inline import panel_markup_clone
-from Clonify.utils import seconds_to_min, time_to_seconds
-from Clonify.utils.channelplay import get_channeplayCB
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.decorators.play import CPlayWrapper
-from Clonify.utils.formatters import formats
-from Clonify.utils.inline import (
+from Amitacloner import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.inline import panel_markup_clone
+from Amitacloner.utils import seconds_to_min, time_to_seconds
+from Amitacloner.utils.channelplay import get_channeplayCB
+from Amitacloner.utils.decorators.language import languageCB
+from Amitacloner.utils.decorators.play import CPlayWrapper
+from Amitacloner.utils.formatters import formats
+from Amitacloner.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
@@ -31,11 +31,11 @@ from Clonify.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Clonify.utils.logger import play_logs, clone_bot_logs
-from Clonify.cplugin.setinfo import get_logging_status, get_log_channel
+from Amitacloner.utils.logger import play_logs, clone_bot_logs
+from Amitacloner.cplugin.setinfo import get_logging_status, get_log_channel
 from config import BANNED_USERS, lyrical
 from time import time
-from Clonify.utils.extraction import extract_user
+from Amitacloner.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
