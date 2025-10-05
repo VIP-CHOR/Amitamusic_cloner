@@ -6,13 +6,13 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from Clonify import LOGGER, app, userbot
-from Clonify.core.call import PRO
-from Clonify.misc import sudo
-from Clonify.plugins import ALL_MODULES
-from Clonify.utils.database import get_banned_users, get_gbanned
+from Amitacloner import LOGGER, app, userbot
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import sudo
+from Amitacloner.plugins import ALL_MODULES
+from Amitacloner.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
-from Clonify.plugins.tools.clone import restart_bots
+from Amitacloner.plugins.tools.clone import restart_bots
 
 
 async def init():
