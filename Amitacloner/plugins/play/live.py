@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from Clonify import YouTube, app
-from Clonify.utils.channelplay import get_channeplayCB
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.stream.stream import stream
+from Amitacloner import YouTube, app
+from Amitacloner.utils.channelplay import get_channeplayCB
+from Amitacloner.utils.decorators.language import languageCB
+from Amitacloner.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
