@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.misc import db
-from Clonify.utils.decorators import AdminRightsCheck
-from Clonify.utils.inline import close_markup
+from Amitacloner import app
+from Amitacloner.misc import db
+from Amitacloner.utils.decorators import AdminRightsCheck
+from Amitacloner.utils.inline import close_markup
 from config import BANNED_USERS
 
 
