@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from Clonify import YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import db
-from Clonify.utils.database import get_loop
-from Clonify.utils.decorators import AdminRightsCheck
-from Clonify.utils.inline import close_markup, stream_markup
-from Clonify.utils.stream.autoclear import auto_clean
-from Clonify.utils.thumbnails import get_thumb
+from Amitacloner import YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import db
+from Amitacloner.utils.database import get_loop
+from Amitacloner.utils.decorators import AdminRightsCheck
+from Amitacloner.utils.inline import close_markup, stream_markup
+from Amitacloner.utils.stream.autoclear import auto_clean
+from Amitacloner.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
