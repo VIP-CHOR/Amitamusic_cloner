@@ -2,7 +2,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from Clonify.utils.formatters import seconds_to_min
+from Amitacloner.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
