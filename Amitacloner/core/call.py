@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from Clonify import LOGGER, YouTube, app
-from Clonify.misc import db
-from Clonify.utils.database import (
+from Amitacloner import LOGGER, YouTube, app
+from Amitacloner.misc import db
+from Amitacloner.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,12 +31,12 @@ from Clonify.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from Clonify.utils.exceptions import AssistantErr
-from Clonify.utils.formatters import check_duration, seconds_to_min, speed_converter
-from Clonify.utils.inline.play import stream_markup
-from Clonify.utils.stream.autoclear import auto_clean
+from Amitacloner.utils.exceptions import AssistantErr
+from Amitacloner.utils.formatters import check_duration, seconds_to_min, speed_converter
+from Amitacloner.utils.inline.play import stream_markup
+from Amitacloner.utils.stream.autoclear import auto_clean
 from strings import get_string
-from Clonify.utils.thumbnails import get_thumb
+from Amitacloner.utils.thumbnails import get_thumb
 
 autoend = {}
 counter = {}
