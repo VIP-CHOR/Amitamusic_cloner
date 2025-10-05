@@ -4,11 +4,11 @@ from pyrogram.types import Message
 from strings import get_string, helpers
 from Clonify import app
 from pyrogram.types import InputMediaVideo
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import add_sudo, remove_sudo
-from Clonify.utils.decorators.language import language
-from Clonify.utils.extraction import extract_user
-from Clonify.utils.inline import close_markup
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import add_sudo, remove_sudo
+from Amitacloner.utils.decorators.language import language
+from Amitacloner.utils.extraction import extract_user
+from Amitacloner.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
