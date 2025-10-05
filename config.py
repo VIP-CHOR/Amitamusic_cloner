@@ -15,13 +15,13 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","II_YOUR_GOJO_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Vip_chor")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "CUTE_ARADHYA56U_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Amita_music_cloner_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "ARADYA MUSIC")
+BOT_NAME = getenv("BOT_NAME" , "Amita music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "HINDU_MUSIC_ASSIST")
+ASSUSERNAME = getenv("ASSUSERNAME" , "MUSIC_ASSASTANT")
 # ---------------------------------------------------------
 
 
@@ -72,9 +72,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/II_BOT_SUPPORT_II")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+pQxq8M-1_GRlZjI9")
-CHAT = getenv("CHAT", "https://t.me/+pQxq8M-1_GRlZjI9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_star_bots_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_CHOR")
+CHAT = getenv("CHAT", "https://t.me/ll_star_bots_support_ll")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
