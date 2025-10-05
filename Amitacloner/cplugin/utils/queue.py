@@ -1,4 +1,4 @@
-from Clonify.misc import clonedb
+from Amitacloner.misc import clonedb
 
 
 async def put(
