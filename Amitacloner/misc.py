@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from Clonify.core.mongo import mongodb
+from Amitacloner.core.mongo import mongodb
 
 from .logging import LOGGER
 
