@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from Clonify import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app, LOGGER
-from Clonify.core.call import PRO
-from Clonify.utils import seconds_to_min, time_to_seconds
-from Clonify.utils.channelplay import get_channeplayCB
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.decorators.play import PlayWrapper
-from Clonify.utils.formatters import formats
-from Clonify.utils.inline import (
+from Amitacloner import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app, LOGGER
+from Amitacloner.core.call import PRO
+from Amitacloner.utils import seconds_to_min, time_to_seconds
+from Amitacloner.utils.channelplay import get_channeplayCB
+from Amitacloner.utils.decorators.language import languageCB
+from Amitacloner.utils.decorators.play import PlayWrapper
+from Amitacloner.utils.formatters import formats
+from Amitacloner.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from Clonify.utils.logger import play_logs
-from Clonify.utils.stream.stream import stream
+from Amitacloner.utils.logger import play_logs
+from Amitacloner.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
