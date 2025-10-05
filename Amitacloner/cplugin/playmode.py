@@ -1,10 +1,10 @@
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Clonify import app
-from Clonify.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from Clonify.utils.decorators import language
-from Clonify.utils.inline.settings import playmode_users_markup
+from Amitacloner import app
+from Amitacloner.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from Amitacloner.utils.decorators import language
+from Amitacloner.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
