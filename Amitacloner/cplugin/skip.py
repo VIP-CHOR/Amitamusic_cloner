@@ -2,16 +2,16 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from Clonify import YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import db
-from Clonify.utils.database import get_loop
-from Clonify.utils.decorators import AdminRightsCheck
-from Clonify.utils.inline import close_markup, stream_markup, stream_markup2
-from Clonify.utils.stream.autoclear import auto_clean
-from Clonify.utils.thumbnails import get_thumb
+from Amitacloner import YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import db
+from Amitacloner.utils.database import get_loop
+from Amitacloner.utils.decorators import AdminRightsCheck
+from Amitacloner.utils.inline import close_markup, stream_markup, stream_markup2
+from Amitacloner.utils.stream.autoclear import auto_clean
+from Amitacloner.utils.thumbnails import get_thumb
 from config import BANNED_USERS
-from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 
 @Client.on_message(
