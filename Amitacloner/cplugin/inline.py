@@ -5,9 +5,9 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 from pyrogram import filters, Client
-from Clonify import app
-from Clonify.utils.inlinequery import answer
-from config import BANNED_USERS
+from Amitacloner import app
+from Amitacloner.utils.inlinequery import answer
+from Amitacloner import BANNED_USERS
 
 
 @Client.on_inline_query(~BANNED_USERS)
