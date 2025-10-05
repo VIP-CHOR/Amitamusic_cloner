@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from Clonify.utils.decorators.language import language
-from Clonify.utils.formatters import alpha_to_int
+from Amitacloner.utils.decorators.language import language
+from Amitacloner.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
