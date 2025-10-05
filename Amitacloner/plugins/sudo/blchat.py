@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.misc import SUDOERS
-from Clonify.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from Clonify.utils.decorators.language import language
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS
+from Amitacloner.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from Amitacloner.utils.decorators.language import language
 from config import BANNED_USERS
 
 
