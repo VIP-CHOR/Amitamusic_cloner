@@ -8,7 +8,7 @@ from Amitacloner.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 from time import time
 import asyncio
-from Clonify.utils.extraction import extract_user
+from Amitacloner.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
