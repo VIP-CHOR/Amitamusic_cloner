@@ -23,7 +23,7 @@ from Amitacloner.utils.inline import (
     slider_markup,
     track_markup,
 )
-from Clonify.utils.database import (
+from Amitacloner.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
