@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from Clonify import app
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from Clonify.utils.database import (
     skip_off,
     skip_on,
 )
-from Clonify.utils.decorators.admins import ActualAdminCB
-from Clonify.utils.decorators.language import language, languageCB
-from Clonify.utils.inline.settings import (
+from Amitacloner.utils.decorators.admins import ActualAdminCB
+from Amitacloner.utils.decorators.language import language, languageCB
+from Amitacloner.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from Clonify.utils.inline.start import private_panel
+from Amitacloner.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
