@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.core.call import PRO
+from Amitacloner import app
+from Amitacloner.core.call import PRO
 
 welcome = 20
 close = 30
