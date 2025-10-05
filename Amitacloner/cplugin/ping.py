@@ -7,8 +7,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import SUPPORT_CHAT, PING_IMG_URL
 from .utils import StartTime
-from Clonify.utils import get_readable_time
-from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
+from Amitacloner.utils import get_readable_time
+from Amitacloner.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
 
 
 @Client.on_message(filters.command("ping"))
