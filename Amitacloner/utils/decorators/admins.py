@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Clonify import app
-from Clonify.misc import SUDOERS, db
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import SUDOERS, db
+from Amitacloner.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
