@@ -1,11 +1,11 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Clonify import app
-from Clonify.core.call import PRO
-from Clonify.utils.database import set_loop
-from Clonify.utils.decorators import AdminRightsCheck
-from Clonify.utils.inline import close_markup
+from Amitacloner import app
+from Amitacloner.core.call import PRO
+from Amitacloner.utils.database import set_loop
+from Amitacloner.utils.decorators import AdminRightsCheck
+from Amitacloner.utils.inline import close_markup
 from config import BANNED_USERS
 
 
