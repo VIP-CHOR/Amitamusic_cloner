@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from Clonify import userbot
-from Clonify.core.mongo import mongodb
+from Amitacloner import userbot
+from Amitacloner.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
