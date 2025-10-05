@@ -1,6 +1,6 @@
 from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Clonify import app
+from Amitacloner import app
 
 def help_pannel(_, START: Union[bool, int] = None):
     first = [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")]
