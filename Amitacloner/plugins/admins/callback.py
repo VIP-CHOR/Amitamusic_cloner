@@ -3,10 +3,10 @@ from telegram import CallbackQuery
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Clonify import YouTube, app
-from Clonify.core.call import PRO
-from Clonify.misc import SUDOERS, db
-from Clonify.utils.database import (
+from Amitacloner import YouTube, app
+from Amitacloner.core.call import PRO
+from Amitacloner.misc import SUDOERS, db
+from Amitacloner.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -23,12 +23,12 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from Clonify.utils.database import get_assistant
-from Clonify.utils.decorators.language import languageCB
-from Clonify.utils.formatters import seconds_to_min
-from Clonify.utils.inline import close_markup, stream_markup, stream_markup_timer
-from Clonify.utils.stream.autoclear import auto_clean
-from Clonify.utils.thumbnails import get_thumb
+from Amitacloner.utils.database import get_assistant
+from Amitacloner.utils.decorators.language import languageCB
+from Amitacloner.utils.formatters import seconds_to_min
+from Amitacloner.utils.inline import close_markup, stream_markup, stream_markup_timer
+from Amitacloner.utils.stream.autoclear import auto_clean
+from Amitacloner.utils.thumbnails import get_thumb
 import config
 from config import (
     BANNED_USERS,
