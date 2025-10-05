@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from Clonify import app
-from Clonify.misc import HAPP, SUDOERS, XCB
-from Clonify.utils.database import (
+from Amitacloner import app
+from Amitacloner.misc import HAPP, SUDOERS, XCB
+from Amitacloner.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from Clonify.utils.decorators.language import language
-from Clonify.utils.pastebin import PROBin
+from Amitacloner.utils.decorators.language import language
+from Amitacloner.utils.pastebin import PROBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
